@@ -70,14 +70,12 @@ python -m pip install -r requirements.txt
 <!-- CONTACT -->
 ## Contact
 
-Bennett B. - bennettbeltran1@gmail.com
-
-Project Link: [https://github.com/bennettbDEV/ChatApp](https://github.com/bennettbDEV/ChatApp)
+Bennett B. - bennettbeltran1@gmail.com - [Linkedin](https://linkedin.com/in/bennettbeltran)
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-While developing this app, I watched videos from NeuralNine and Atlas to better understand networking and UI development respectively, so I reccommend checking them out.
+While developing this app, I watched videos from NeuralNine and Atlas to better understand networking and UI development (for python) respectively, so I reccommend checking them out.
 * [NeuralNine](https://www.youtube.com/@NeuralNine)
 * [Atlas](https://youtube.com/playlist?list=PLpMixYKO4EXeaGnqT_YWx7_mA77bz2VqM&si=LXwmlks4OqyhAUtU)
 * [README-Template](https://github.com/othneildrew/Best-README-Template)
