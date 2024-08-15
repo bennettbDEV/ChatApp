@@ -53,19 +53,31 @@ To set the server/client up follow these simple example steps.
 
 0. (Optionally) Set up a [virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
 ```sh
-python<version> -m venv <virtual-environment-name>
+python -m venv venv
 ```
-2. Clone the repo
+0a. Activate the virtual environment - for Windows:
+```sh
+.\venv\Scripts\activate
+```
+0b. For Linux/Mac:
+```sh
+source venv/bin/activate
+```
+1. Clone the repo
 ```sh
 git clone https://github.com/bennettbDEV/ChatApp.git
+```
+2. Open ChatApp directory
+```sh
+cd ChatApp
 ```
 3. Install necessary packages
 ```sh
 python -m pip install -r requirements.txt
 ```
-4a. To start the server, change the host and port values on line 8-9 to whatever you would like and run **serverHost.py**
+4a. To start the server, change the host and port values of serverHost.py on line 8-9 to whatever you would like and run **serverHost.py**
 
-4b. To start the client, change the host and port values on line 8-9 to a known server address + port and run **client.py** 
+4b. To start the client, change the host and port values of client.py on line 8-9 to a known server address + port and run **client.py** 
 
 <!-- CONTACT -->
 ## Contact
@@ -81,20 +93,3 @@ While developing this app, I watched videos from NeuralNine and Atlas to better 
 * [README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/bennettbDEV/ChatApp.svg?style=for-the-badge
-[contributors-url]: https://github.com/bennettbDEV/ChatApp/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/bennettbDEV/ChatApp.svg?style=for-the-badge
-[forks-url]: https://github.com/bennettbDEV/ChatApp/network/members
-[stars-shield]: https://img.shields.io/github/stars/bennettbDEV/ChatApp.svg?style=for-the-badge
-[stars-url]: https://github.com/bennettbDEV/ChatApp/stargazers
-[issues-shield]: https://img.shields.io/github/issues/bennettbDEV/ChatApp.svg?style=for-the-badge
-[issues-url]: https://github.com/bennettbDEV/ChatApp/issues
-[license-shield]: https://img.shields.io/github/license/bennettbDEV/ChatApp.svg?style=for-the-badge
-[license-url]: https://github.com/bennettbDEV/ChatApp/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/bennettbeltran
-[chatp2-screenshot]: images/chatp2.png
